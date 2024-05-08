@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Property Finder
 
-## Getting Started
+## Your Go-To Rental Property Search Platform
 
-First, run the development server:
+Welcome to the Property Finder, a comprehensive website designed for searching and posting rental properties. Our platform integrates powerful tools like Next.js with NextAuth for seamless authentication, MongoDB for robust data handling, and React Geocode for precise property mapping.
+
+### Why Property Finder?
+
+The motivation behind Property Finder is to streamline the process of finding and listing rental properties online. Whether you're looking to rent a new place or manage your rental listings, Property Finder makes it easier than ever:
+
+- **Comprehensive Search Features:** Search by property type and other criteria to find exactly what you need.
+- **User-Centric Design:** From property browsing to bookmarking favorites, our site is built with the user experience in mind.
+- **Advanced Geolocation:** Each property's location is pinpointed with React Geocode for accuracy and convenience.
+
+### What Does Property Finder Do?
+
+Property Finder allows users to:
+
+- **Browse and Post Listings:** Users can easily post their properties or browse existing listings through intuitive interfaces.
+- **Bookmark Properties:** Save properties to review later with a simple bookmark feature.
+- **Contact Property Managers:** Securely contact property managers or owners through our integrated messaging system.
+- **Manage User Profiles:** Each user's profile displays information pulled directly from MongoDB, including saved properties and more.
+
+### Quick Start Installation
+
+To get started with Property Finder on your local machine, follow these steps:
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/property-finder.git
+
+# Navigate to the project directory
+cd property-finder
+
+# Install dependencies
+npm install
+
+# Run the application
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
