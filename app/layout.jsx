@@ -1,11 +1,19 @@
-import React from 'react'
+import '@/assets/styles/globals.css';
 
-const layout = () => {
+export const metadata = {
+  title : 'PropertyPulse'
+}
+
+const MainLayout = ({children}) => {
   return (
-    <div>
-      
+    <html lang='en'>
+      <body>
+      <div>
+      {children}
     </div>
+      </body>
+    </html>
   )
 }
 
-export default layout
+export default MainLayout
